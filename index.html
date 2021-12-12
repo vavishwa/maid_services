@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?sensor=false&key=YOUR_API_KEY">
+</script>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -9,23 +24,7 @@
 <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css" />
 
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
-
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("img/image3.jpg");
-  min-height: 90%;
-}
-
-.w3-bar .w3-button {
-  padding: 16px;
-}
 </style> 
 </head>
 <body>
@@ -62,23 +61,150 @@ body, html {
   </div> 
 </header>
 <!-- Banner End -->
-<div class="w3-container" style="padding:64px 16px" id="team">
-  <h1 class="w3-center">Services We Offer</h1>
+<!-- How it works -->
+<div class="container position-relative my-5 py-5">
+  <div class="text-center">
+    <h1 class="mb-5">4 Stages of implementation</h1> 
+</div>
+<div class="div-dashed-border d-none d-md-flex"></div>
+<div class="row">
+  <div class="col-md-3">
+      <div class="div-stages signup-icon m-auto"></div>
+      <div class="text-center pt-4">
+          <h5>1. Sign Up</h5>
+          <div class="pt-3">
+              Enroll by contacting us at 877-987-4634 ext 1. You may also email us at sales@vrindi.com.
+          </div>
+      </div>
+  </div>
+  <div class="col-md-3">
+      <div class="div-stages signup-menu m-auto"></div>
+      <div class="text-center pt-4">
+          <h5>2. Menu</h5>
+          <div class="pt-3">
+              Send us your menu, logo, and product photos. We’ll convert your menu into an interactive online ordering site and design it to match your brand.
+          </div>
+      </div>
+  </div>
+  <div class="col-md-3">
+      <div class="div-stages signup-activate m-auto"></div>
+      <div class="text-center pt-4">
+          <h5>3. Activate</h5>
+          <div class="pt-3">
+              We’ll send you a website link for review and upon confirmation, we will make your website live.
+          </div>
+      </div>
+  </div>
+  <div class="col-md-3">
+      <div class="div-stages signup-order m-auto"></div>
+      <div class="text-center pt-4">
+          <h5>4. Get more Orders</h5>
+          <div class="pt-3">
+              Start converting your website visitors to your customers with our online ordering and marketing tools.
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+<!-- how it works ends -->
+<!-- services we offer -->
+<div class="bg-gray">
+  <div class="container mb-5 py-5">
+    <h1 class="text-center mb-5">Services We Offer</h1> 
+    <div class="row">
+        <div class="col-lg-3 mb-3">
+            <div class="row mx-0 justify-content-center box-shadow h-100">
+                <div class="text-center title-font">
+                    <div>
+                      <img src="img/team2.jpg" alt="John" style="width:100%">
+                    </div>
+                    <div class="content-font small-content p-4">
+                        Get a feel for how our technology works.
+                        Build a sample cart/order
+                        online and see how it gets deleivered
+                        to you.
+                    </div>
+                </div>
+                <div class="align-self-end mb-4">
+                    <p><button class="w3-button w3-light-grey w3-block mb-1"><i class="fa fa-envelope"></i> Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-3">
+          <div class="row mx-0 justify-content-center box-shadow h-100">
+              <div class="text-center title-font">
+                  <div>
+                    <img src="img/team1.jpg" alt="John" style="width:100%">
+                  </div>
+                  <div class="content-font small-content p-4">
+                      Get a feel for how our technology works.
+                      Build a sample cart/order
+                      online and see how it gets deleivered
+                      to you.
+                  </div>
+              </div>
+              <div class="align-self-end mb-4">
+                  <p><button class="w3-button w3-light-grey w3-block mb-1"><i class="fa fa-envelope"></i> Contact</button></p>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 mb-3">
+        <div class="row mx-0 justify-content-center box-shadow h-100">
+            <div class="text-center title-font">
+                <div>
+                  <img src="img/team3.jpg" alt="John" style="width:100%">
+                </div>
+                <div class="content-font small-content p-4">
+                    Get a feel for how our technology works.
+                    Build a sample cart/order
+                    online and see how it gets deleivered
+                    to you.
+                </div>
+            </div>
+            <div class="align-self-end mb-4">
+                <p><button class="w3-button w3-light-grey w3-block mb-1"><i class="fa fa-envelope"></i> Contact</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="row mx-0 justify-content-center box-shadow h-100">
+          <div class="text-center title-font">
+              <div>
+                <img src="img/team1.jpg" alt="John" style="width:100%">
+              </div>
+              <div class="content-font small-content p-4">
+                  Get a feel for how our technology works.
+                  Build a sample cart/order
+                  online and see how it gets deleivered
+                  to you.
+              </div>
+          </div>
+          <div class="align-self-end mb-4">
+              <p><button class="w3-button w3-light-grey w3-block mb-1"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container" style="padding:64px 16px" id="team">
+  <h1 class="text-center">Services We Offer</h1>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="img/team2.jpg" alt="John" style="width:100%">
-        <div class="w3-container">
+        <div class="container">
           <h3>John Doe</h3>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <p><button class="w3-button w3-light-grey w3-block mb-1"><i class="fa fa-envelope"></i> Contact</button></p>
         </div>
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="img/team1.jpg" alt="Jane" style="width:100%">
-        <div class="w3-container">
+        <div class="container">
           <h3>Anja Doe</h3>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
@@ -88,7 +214,7 @@ body, html {
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="img/team3.jpg" alt="Mike" style="width:100%">
-        <div class="w3-container">
+        <div class="container">
           <h3>Mike Ross</h3>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
@@ -98,7 +224,7 @@ body, html {
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
         <img src="img/team2.jpg" alt="Dan" style="width:100%">
-        <div class="w3-container">
+        <div class="container">
           <h3>Dan Star</h3>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
@@ -106,33 +232,33 @@ body, html {
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- About Section Start -->
-<div class="w3-row-padding w3-padding-64 w3-container" id="about">
-  <div class="w3-third w3-center">
-    <img src="img/woman2.svg"  alt="Table Setting" width="500" height="400">
+<!-- <div class="w3-row-padding container" id="about">
+  <div class="w3-third text-center">
+    <img src="img/woman2.svg"  alt="Table Setting">
   </div>
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Why Choose Us?</h1>
-      <h5 class="w3-padding-32">We have involvement with giving proficient Maid Services, Housekeeping and Cook administrations across Mumbai, India. We are one of the quickest developing Companies as office the board administrations are concerned. We at SM Maid Services offer a wide arrangement of particular administrations that are gave with quality-based. Approach and have consistently dominated in giving our important customers in house and outside utilities and backing capacities by offering quality help administrations for house cleaner Services, Cooking, Housekeeping, and support and cleaning administrations. Other than offering housekeeping arrangements, we are likewise into a specific line of business to provide food different administrations.</h5>
+      <h1 class="text-center">Why Choose Us?</h1>
+      <h5 class="w3-padding-16">We have involvement with giving proficient Maid Services, Housekeeping and Cook administrations across Mumbai, India. We are one of the quickest developing Companies as office the board administrations are concerned. We at SM Maid Services offer a wide arrangement of particular administrations that are gave with quality-based. Approach and have consistently dominated in giving our important customers in house and outside utilities and backing capacities by offering quality help administrations for house cleaner Services, Cooking, Housekeeping, and support and cleaning administrations. Other than offering housekeeping arrangements, we are likewise into a specific line of business to provide food different administrations.</h5>
 
-      <div class="w3-col m3">
+      <div class="col-md-3">
         <i class="fa fa-thumbs-o-up w3-margin-bottom w3-jumbo" style="color:#1780e8;"></i>
         <p style="font-size:22px;" style="color:#1780e8;">100%</p>
         <p style="font-size:14px;" style="color:#1780e8;">Satisfaction</p>
       </div>
-      <div class="w3-col m3">
+      <div class="col-md-3">
         <i class="fa fa-clock-o w3-margin-bottom w3-jumbo" style="color:#1780e8;"></i>
         <p class="w3-big" style="color:#1780e8;">24/7</p>
         <p class="w3-small" style="color:#1780e8;">Support</p>
       </div>
-      <div class="w3-col m3">
+      <div class="col-md-3">
         <i class="fa fa-users w3-margin-bottom w3-jumbo" style="color:#1780e8;"></i>
         <p class="w3-big">Experienced</p>
         <p class="w3-small">Team</p>
       </div>
-      <div class="w3-col m3">
+      <div class="col-md-3">
         <i class="fa fa-money w3-margin-bottom w3-jumbo" style="color:#f5cb20;"></i>
         <p class="w3-big">Cost</p>
         <p class="w3-small">Effective</p>
@@ -140,13 +266,54 @@ body, html {
 
     </div>
   </div>
+</div> -->
+
+<div class="container position-relative">
+  <div class="row pt-5">
+    <div class="col-md-5 text-center banner-image">
+      <img src="img/home-bai-img.png" class="" alt="Table Setting">
+    </div>
+    <div class="col-md-6">
+      <div class="w3-content">
+        <div class="about-us__content">
+          <h1 class="text-center">Why Choose Us?</h1>
+          <div class="about-us-summary">
+            <p class="w3-padding-16">We have involvement with giving proficient Maid Services, Housekeeping and Cook administrations across Mumbai, India. We are one of the quickest developing Companies as office the board administrations are concerned. We at SM Maid Services offer a wide arrangement of particular administrations that are gave with quality-based. Approach and have consistently dominated in giving our important customers in house and outside utilities and backing capacities by offering quality help administrations for house cleaner Services, Cooking, Housekeeping, and support and cleaning administrations. Other than offering housekeeping arrangements, we are likewise into a specific line of business to provide food different administrations.</p>
+          </div>          
+          <div class="row">
+            <div class="col-md-3 text-center">
+              <i class="fa fa-thumbs-o-up w3-margin-bottom w3-jumbo" style="color:#1780e8;"></i>
+              <p style="font-size:22px;" style="color:#1780e8;">100%</p>
+              <p style="font-size:14px;" style="color:#1780e8;">Satisfaction</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <i class="fa fa-clock-o w3-margin-bottom w3-jumbo" style="color:#1780e8;"></i>
+              <p class="w3-big" style="color:#1780e8;">24/7</p>
+              <p class="w3-small" style="color:#1780e8;">Support</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <i class="fa fa-users w3-margin-bottom w3-jumbo" style="color:#1780e8;"></i>
+              <p class="w3-big">Experienced</p>
+              <p class="w3-small">Team</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <i class="fa fa-money w3-margin-bottom w3-jumbo" style="color:#f5cb20;"></i>
+              <p class="w3-big">Cost</p>
+              <p class="w3-small">Effective</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 <!-- About Section End -->
-<hr/>
+<!-- <hr/> -->
 <!-- How It Works Section Start -->
-<div class="w3-container" style="padding:8px 16px" id="process">
-  <h2 class="w3-center">How It Works</h2>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
+<!-- <div class="container" style="padding:8px 16px" id="process">
+  <h2 class="text-center">How It Works</h2>
+  <div class="w3-row-padding text-center" style="margin-top:64px">
   <div class="w3-col m4 w3-padding-16">
       <img src="img/identity-check.png" alt="Table Setting" width="150" height="100">
       <p class="w3-big">Identity Check</p>
@@ -177,50 +344,52 @@ body, html {
       <p class="w3-big">Affordable Pricing</p>
    </div>
  </div>
-</div>
+</div> -->
 <!-- How It Works Section End -->
-<hr/>
-
-<div class = "w3-container w3-padding-16 w3-theme-2 leftFloat">
-  <center><h2>Contact Us</h2></center>
-  <div class = "row">
-    <div class="w3-col m5 leftFloat">
-        <div class="w3-padding-16 margin-left-15 margin-right-10">
-        <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> SM Maid Services,Office No.-318,<br/>&nbsp;&nbsp;&nbsp;
-          Ground Floor 2537 Motilal Nagar No.-2,<br/>&nbsp;&nbsp;&nbsp;  Nearby hotel Riva International, <br/>&nbsp;&nbsp;&nbsp;
-           New Link Road, Goregaon(W), Mumbai-400104</p>
-           <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>+91 720 839 9880</p>
-           <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>test@test.com</p>
+<!-- <hr/> -->
+<div id="container" class="bg-gray">
+  <div class= "container w3-theme-2 leftFloat py-5">
+    <center><h2>Contact Us</h2></center>
+    <div class = "row">
+      <div class="col-md-5 leftFloat">
+          <div class="w3-padding-16 margin-left-15 margin-right-10">
+          <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> SM Maid Services,Office No.-318,<br/>&nbsp;&nbsp;&nbsp;
+            Ground Floor 2537 Motilal Nagar No.-2,<br/>&nbsp;&nbsp;&nbsp;  Nearby hotel Riva International, <br/>&nbsp;&nbsp;&nbsp;
+             New Link Road, Goregaon(W), Mumbai-400104</p>
+             <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>+91 720 839 9880</p>
+             <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>test@test.com</p>
+         </div>
        </div>
-     </div>
-
-    <div class="w3-col m7 leftFloat">
-      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
-      <div class="w3-section">      
-        <label>Name</label>
-        <input class="w3-input" type="text" name="Name" required>
-      </div>
-
-      <div class="w3-section">      
-        <label>Email</label>
-        <input class="w3-input" type="text" name="Email" required>
-      </div>
-
-      <div class="w3-section">      
-        <label>Message</label>
-        <input class="w3-input" type="text" name="Message" required>
-      </div> 
-
-      <input class="w3-check" type="checkbox" checked name="Like">
-      <label>I Like it!</label> 
-      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
-      </form>
+  
+      <div class="col-md-7 leftFloat">
+        <form class="container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">      
+          <label>Name</label>
+          <input class="w3-input" type="text" name="Name" required>
+        </div>
+  
+        <div class="w3-section">      
+          <label>Email</label>
+          <input class="w3-input" type="text" name="Email" required>
+        </div>
+  
+        <div class="w3-section">      
+          <label>Message</label>
+          <input class="w3-input" type="text" name="Message" required>
+        </div> 
+  
+        <input class="w3-check" type="checkbox" checked name="Like">
+        <label>I Like it!</label> 
+        <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+        </form>
+    </div>
+    </div>
   </div>
-  </div>
+  <!-- <div id='map-canvas'></div> -->
 </div>
-<hr/>
+
 <!-- Footer -->
-<footer class="w3-white w3-center">
+<footer class="w3-white text-center py-4">
   <h4>Follow Us</h4>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
   <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
@@ -240,6 +409,8 @@ body, html {
 </body>
 
 <script>
+
+
 
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -261,6 +432,7 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+
 </script>
 
 </html>

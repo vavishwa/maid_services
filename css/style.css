@@ -1,0 +1,119 @@
+:root {
+    --vrindi-blue:#007cc2;
+    --gray:#f3f3f3;
+    --light-gray:#f6f6f6;
+    --dark-gray:#616161;
+    --pos-blue:#e5f2fa;
+    --bg-gray:#f7f7f7;
+    --normal-font:18px;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  line-height: 1.8;
+}
+
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/image3.jpg");
+  min-height: 90%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.about-us__content h1{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2.5rem;
+}
+
+.about-us__content .about-us-summary p{
+    font-size: 19px;
+}
+
+.banner-image{
+    padding-bottom: 30px !important;
+}
+.banner-image img{
+    position:absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.div-dashed-border {
+    width: 80%;
+    height: 1px;
+    border-bottom: 2px dashed #dee2e6;
+    top: 40%;
+    position: absolute;
+    left: 10%;
+}
+
+.bg-gray {
+    background-color: var(--bg-gray);
+}
+
+.div-stages {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 12px 0 #e0e0e0;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /* z-index: 1; */
+    background-color: #fff;
+}
+
+.signup-icon {
+    background-image: url(../img/SignUp_Icon.png);
+}
+
+.signup-menu {
+    background-image: url(../img/Menu.png);
+}
+
+.signup-activate {
+    background-image: url(../img/Activate_Icon.png);
+}
+
+.signup-order {
+    background-image: url(../img/GetMore_Icon.png);
+}
+
+.box-shadow {
+    box-shadow: 0 0 18px 0 #9c9c9c;
+}
+
+#map-canvas {
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    bottom: -200px; 
+    left: 0; 
+    right: 0; 
+    z-index: 0;
+  }
+  
+  #container {
+    z-index: 100;
+    position: relative;
+  }
+
+@media (max-width: 768px){
+/* .d-md-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+} */
+.banner-image img{
+    position:relative !important;
+    width: 100%;
+}
+}
